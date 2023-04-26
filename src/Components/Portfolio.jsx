@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "News Classifier",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A web app that classifies news articles into 4 categories: Business, Entertainment, Politics, and Sports. The model was trained using the Multinomial Naive Bayes algorithm.",
+    url: "https://zeleoeo-verbose-enigma-4px66ppqx6phvxp-1234.preview.app.github.dev/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Artificial Intelligence Flappy Bird",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Artificial Intelligence trained to play Flappy Bird using the NEAT Library in python.",
+    url: "https://github.com/ZeleOeO/Artificial-Intelligence-Flappy-Bird",
   },
   {
-    title: "My Resume Site",
+    title: "Nebula",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "A pygame learning course for beginners. The course takes you through the basics of pygame and how to create a simple game.",
+    url: "https://github.com/poopsicles/nebula",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "G313 Calculator",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Created a calculator using HTML, CSS, and JavaScript. Includes basic math functions and a dark mode toggle.",
+    url: "https://github.com/Rai-nee/Team_Project",
   },
 ];
 
@@ -64,7 +64,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 0s 1 slideIn",
+            }}
             alt={imageAltText}
           />
         </div>
